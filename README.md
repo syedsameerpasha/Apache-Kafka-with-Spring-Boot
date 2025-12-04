@@ -22,6 +22,7 @@ REST endpoint to trigger location updates
 
 Simulates continuous streaming (like Zomato rider location refresh)
 
+
 👤 2. EndUser Service (Consumer)
 
 This service represents the customer side.
@@ -35,6 +36,7 @@ Always receives the latest rider location
 Can be extended to show the coordinates on a UI/map
 
 Kafka Consumer implementation
+
 
 🛠 Tech Stack
 
@@ -55,6 +57,7 @@ JSON
 delivery_location_topic
 
 Used to carry continuous delivery partner location updates.
+
 
 ⚙️ Architecture
 DeliveryBoy Service (Producer)
